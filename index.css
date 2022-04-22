@@ -11,3 +11,44 @@
 ul {
   list-style: none;
 }
+
+.user-avatar {
+  width: 2rem;
+  height: auto;
+  position: absolute;
+  bottom: .5rem;
+  right: 3rem;
+}
+
+.octocat {
+  width: 1rem;
+  height: auto;
+  position: absolute;
+  bottom: 0rem;
+  right: 0rem
+}
+
+.user-url {
+  width: 1rem;
+  height: auto;
+  position: absolute;
+  bottom: 1rem;
+  right: 1.1rem
+}
+
+.uName {
+  position: absolute;
+  top: 0px
+}
+
+.user-card {
+  text-align:left;
+  border: grey solid 1px;
+  padding: 1rem;
+  width: 15rem;
+  height: 1rem;
+  display: inline-grid;
+  margin: 1rem 2rem;
+  box-shadow: 3px 3px black;
+  position: relative;
+}
